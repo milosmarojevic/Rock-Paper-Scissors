@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milos|Rock Paper Scissors</title>
+    <link href="index.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-container">
+        <ion-icon name="sunny-outline" class="mode-btn"></ion-icon>
+        <div class="player-hand">
+          <img class="player-img game-img" src="images/rock.png" />
+        </div>
+        <div class="computer-hand">
+          <img class="computer-img game-img" src="images/rock.png" />
+        </div>
+      </div>
+
+      <div class="message-container">
+        <p class="message">Let's play!</p>
+      </div>
+
+      <div class="choice-container">
+        <div class="rock-choice choice" data-choice="rock">
+          <img class="rock-img choice-img" src="images/rock.png" />
+          <p class="choice-text">Rock</p>
+        </div>
+        <div class="paper-choice choice" data-choice="paper">
+          <img class="paper-img choice-img" src="images/paper.png" />
+          <p class="choice-text">Paper</p>
+        </div>
+        <div class="scissors-choice choice" data-choice="scissors">
+          <img class="scissors choice-img" src="images/scissors.png" />
+          <p class="choice-text">Scissors</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
