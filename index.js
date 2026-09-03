@@ -1,5 +1,5 @@
-import "core-js/stable";
-import "regenerator-runtime/runtime";
+/* import "core-js/stable";
+import "regenerator-runtime/runtime"; */
 
 const body = document.querySelector("body");
 const container = document.querySelector(".container");
